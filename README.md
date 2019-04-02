@@ -21,7 +21,7 @@ apm install minimap minimap-highlight-selected highlight-selected editorconfig d
 apm install linter linter-eslint autocomplete-modules
 ```
 And go [over there](https://www.npmjs.com/package/eslint-config-airbnb) to see how you get
-the deps for `eslint-config-airbnb` these days. And yse `eslint-config-airbnb`. Smart people over there made good rules.
+the deps for `eslint-config-airbnb` these days. And use `eslint-config-airbnb`. Smart people over there made good rules.
 
 ## For those who do PHP
 
