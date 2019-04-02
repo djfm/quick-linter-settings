@@ -12,10 +12,10 @@ apm install aligner-javascript aligner-php atom-autocomplete-php atom-beautify a
 ## More reasonably, the must-haves for any language
 
 ```bash
-apm install minimap minimap-highlight-selected highlight-selected editorconfig docblockr language-markdown select-text-between-tags
+apm install minimap minimap-highlight-selected highlight-selected editorconfig docblockr language-markdown select-text-between-tags atom-beautify aligner
 ```
 
-## For thos who do JS
+## For those who do JS
 
 ```
 apm install linter linter-eslint autocomplete-modules
@@ -26,10 +26,12 @@ the deps for `eslint-config-airbnb` these days. And use `eslint-config-airbnb`. 
 ## For those who do PHP
 
 ```
-apm install php-ide-serenata linter-phpmd aligner-php linter-phpcs phpcs-fixer
+apm install php-ide-serenata linter-phpmd aligner-php linter-phpcs phpcs-fixer linter-php
 ```
 About phpmd: it will make you feel stupid but it is often right. You can disable
 a rule by writing an annotation like `@SuppressWarnings(PHPMD.StaticAccess)` in the class (and probably also function docblock)
+
+Yes that's a lot of linters, but they each miss something different.
 
 
 When installing linter you will be asked to choose between that provided by php-ide and linter. Chose PHP IDE, i.e. not linter.
