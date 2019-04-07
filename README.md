@@ -12,7 +12,7 @@ apm install aligner-javascript aligner-php atom-autocomplete-php atom-beautify a
 ## More reasonably, the must-haves for any language
 
 ```bash
-apm install minimap minimap-highlight-selected highlight-selected editorconfig docblockr language-markdown select-text-between-tags atom-beautify aligner
+apm install minimap minimap-highlight-selected highlight-selected editorconfig docblockr language-markdown select-text-between-tags atom-beautify aligner php-debug
 ```
 
 ## For those who do JS
@@ -36,3 +36,9 @@ Yes that's a lot of linters, but they each miss something different.
 
 When installing linter you will be asked to choose between that provided by php-ide and linter. Chose PHP IDE, i.e. not linter.
 phpmd will be hard on you, don't cry. It provides [good advice](https://phpmd.org/rules/index.html).
+
+## Another fun one rather PHP-oriented
+
+```bash
+apm install aligner aligner-javascript aligner-php atom-beautify atom-bracket-highlight atom-brackets-glow atom-debug-ui atom-ide-ui autoclose-html autocomplete-modules bracket-colorizer busy-signal close-tags docblockr double-brackets-with-spaces editorconfig fancy-bracket-matcher highlight-selected ide-php intentions language-markdown linter linter-eslint linter-php linter-phpcs linter-phpmd linter-ui-default minimap minimap-highlight-selected output-panel php-cs-fixer php-debug php-ide-serenata project-manager select-text-between-tags swackets
+```
