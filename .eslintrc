@@ -1,0 +1,11 @@
+ {
+	"extends":	"airbnb",
+	"plugins": 	[
+				"php-markup"
+			],
+	"rules": {
+   	 	"no-template-curly-in-string": "off",
+    		"no-restricted-syntax": 0
+	}
+  }
+ }
