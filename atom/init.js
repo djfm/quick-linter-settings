@@ -1,5 +1,3 @@
-```javascript
-
 const path = require('path');
 const os = require('os');
 const electron = require('electron');
@@ -22,5 +20,3 @@ electron
   .remote
   .BrowserWindow
   .addDevToolsExtension(pathToDevToolsExtention);
-  
- ```
